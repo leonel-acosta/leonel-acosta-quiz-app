@@ -1,6 +1,47 @@
 @import url("global.css");
+@import url("fonts.css");
 @import url("header.css");
 @import url("footer.css");
 @import url("card.css");
 @import url("bookmarks.css");
 @import url("profile.css");
+
+@font-face {
+    font-family: 'lato';
+    font-style: normal;
+    font-weight: 100;
+    src: url(../assets/Lato-Regular.ttf) format('truetype'); 
+}
+
+@font-face {
+    font-family: 'lato';
+    font-style: italic;
+    font-weight: 100;
+    src: url(../assets/Lato-Italic.ttf) format('truetype'); 
+}
+
+@font-face {
+    font-family: 'lato';
+    font-style:normal;
+    font-weight: bold;
+    src: url(../assets/Lato-Bold.ttf) format('truetype'); 
+}
+
+@font-face {
+    font-family: 'lato';
+    font-style: italic;
+    font-weight: bold;
+    src: url(../assets/Lato-BoldItalic.ttf) format('truetype'); 
+}
+
+h1, h2, h3, h4{
+font-family: 'Playfair Display';
+font-style:normal;
+font-weight: bold;
+}
+
+p, h4, h5, a{
+    font-family: 'lato';
+    font-style:normal;
+    font-weight: 100;
+}
