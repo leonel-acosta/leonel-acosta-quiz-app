@@ -17,6 +17,10 @@ nav a{
     text-align:center;
 }
 
+nav a.current{
+    background-color: var(--accent-color);
+}
+
 nav a:hover{
     background-color: var(--accent-color);
 }
