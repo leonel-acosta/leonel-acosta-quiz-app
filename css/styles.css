@@ -6,41 +6,13 @@
 @import url("bookmarks.css");
 @import url("profile.css");
 
-@font-face {
-    font-family: 'lato';
-    font-style: normal;
-    font-weight: 100;
-    src: url(../assets/Lato-Regular.ttf) format('truetype'); 
-}
-
-@font-face {
-    font-family: 'lato';
-    font-style: italic;
-    font-weight: 100;
-    src: url(../assets/Lato-Italic.ttf) format('truetype'); 
-}
-
-@font-face {
-    font-family: 'lato';
-    font-style:normal;
-    font-weight: bold;
-    src: url(../assets/Lato-Bold.ttf) format('truetype'); 
-}
-
-@font-face {
-    font-family: 'lato';
-    font-style: italic;
-    font-weight: bold;
-    src: url(../assets/Lato-BoldItalic.ttf) format('truetype'); 
-}
-
-h1, h2, h3, h4{
+h1, h2 {
 font-family: 'Playfair Display';
 font-style:normal;
 font-weight: bold;
 }
 
-p, h4, h5, a{
+p, h3, h4, h5, a{
     font-family: 'lato';
     font-style:normal;
     font-weight: 100;

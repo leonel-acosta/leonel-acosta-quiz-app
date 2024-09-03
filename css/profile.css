@@ -5,7 +5,7 @@
     flex-wrap:wrap;
     padding:2em;
     position:relative;
-    justify-content: center;
+    justify-content: space-evenly;
     align-content:center;
     justify-items:center;
     align-items:center;
@@ -50,7 +50,7 @@
     padding:2em;
     display:flex;
     flex-direction: row;
-    flex-wrap:nowrap;
+    flex-wrap:wrap;
     justify-content: space-evenly;
     gap:2em
 }
@@ -64,6 +64,7 @@
     align-items:center;
     justify-content:space-around;
     gap: 0.5em;
+    font-family: 'Lato';
 }
 
 .questions__counter{
@@ -92,7 +93,7 @@
 
 .settings__container{
     background-color:var(--primary-background-color);
-    padding:2em 2em;
+    padding:2em 3em;
     display:flex;
     flex-direction: column;
     flex-wrap:nowrap;
@@ -105,11 +106,14 @@ settings{
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-between;
-    align-items:center
+    align-items:center;
+    margin-bottom:1em;
 }
 
 .setting__description{
     text-align:left;
+    font-size:1.2rem;
+    line-height: 1.2;
 }
 
 .setting__toggle button{
@@ -118,6 +122,7 @@ settings{
     background-color: var(--secondary-background-color);
     color:var(--primary-background-color);
     border:none;
+    font-size:1.1rem;
 }
 
 .setting__toggle button:hover{
