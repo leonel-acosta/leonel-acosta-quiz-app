@@ -1,0 +1,33 @@
+.profile__container{
+    background-color:var(--background-color);
+    display:flex;
+    flex-direction:column;
+    flex-wrap:wrap;
+    padding:2em;
+    position:relative;
+    justify-content: center;
+    align-content:center;
+    justify-items:center;
+    align-items:center;
+    flex-wrap:wrap;
+    gap:2em;
+}
+
+.profile__container .image__wrapper{
+    position:relative;
+}
+
+.profile__picture{
+    object-fit:cover;
+    height:400px;
+    width:400px;
+    border-radius:200px;
+}
+
+
+.about-me__container{
+    padding:2em;
+}
+
+
+
