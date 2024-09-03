@@ -33,6 +33,7 @@
     color:var(--white-color);
     text-align:center;
     font-weight:400;
+    text-transform: uppercase;
 }
 
 .answer__text{ 
