@@ -27,7 +27,71 @@
 
 .about-me__container{
     padding:2em;
+    background-color:var(--primary-background-color)
 }
 
+.about-me__title{
+    text-align: center;
+    text-transform: uppercase;
+    color:var(--primary-color);
+    margin-bottom:1em
+}
 
+.counters__container{
+    padding:2em;
+    display:flex;
+    flex-direction: row;
+    flex-wrap:nowrap;
+    justify-content: space-evenly;
+    gap:2em
+}
 
+.counter{
+    background-color: var(--accent-color);
+    padding:1em 2em;
+    border-radius: 10px;
+    display:flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content:space-around;
+    gap: 0.5em;
+}
+
+.questions__counter{
+    background-color: var(--secondary-color);
+}
+
+.questions__counter:hover{
+    background-color: var(--accent-color);
+}
+
+.questions__icon{
+    width:30px;
+}
+
+.bookmarks__counter{
+    background-color: var(--accent-color);
+}
+
+.bookmarks__counter:hover{
+    background-color: var(--secondary-color);
+}
+
+.bookmarks__icon{
+    width:30px;
+}
+
+@media (min-width:600px){
+
+    .counter{
+        font-size:1.6em
+    }
+
+    .questions__icon{
+        width:50px;
+    }
+    .bookmarks__icon{
+        width:50px;
+    }
+
+}
