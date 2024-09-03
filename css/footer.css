@@ -2,7 +2,8 @@
     background-color:var(--secondary-background-color);
     position:sticky;
     bottom:0;
-    width:100%
+    width:100%;
+    z-index:1;
 }
 
 nav{
