@@ -1,7 +1,7 @@
 .profile__container{
     background-color:var(--background-color);
     display:flex;
-    flex-direction:column;
+    flex-direction:row;
     flex-wrap:wrap;
     padding:2em;
     position:relative;
@@ -17,6 +17,9 @@
     position:relative;
 }
 
+.profile__name{
+    font-size:3rem;
+}
 .profile__picture{
     object-fit:cover;
     height:400px;
@@ -24,9 +27,8 @@
     border-radius:200px;
 }
 
-
 .about-me__container{
-    padding:2em;
+    padding:2em 3em;
     background-color:var(--primary-background-color)
 }
 
@@ -35,6 +37,13 @@
     text-transform: uppercase;
     color:var(--primary-color);
     margin-bottom:1em
+}
+
+.about-me__text{
+    text-align: justify;
+    margin-bottom:1em;
+    font-size:1.2rem;
+    line-height: 1.2;
 }
 
 .counters__container{
