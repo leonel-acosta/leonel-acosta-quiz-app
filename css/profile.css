@@ -32,11 +32,11 @@
     background-color:var(--primary-background-color)
 }
 
-.about-me__title{
+.subtitle{
     text-align: center;
     text-transform: uppercase;
     color:var(--primary-color);
-    margin-bottom:1em
+    margin-bottom:0.6em;
 }
 
 .about-me__text{
@@ -88,6 +88,41 @@
 
 .bookmarks__icon{
     width:30px;
+}
+
+.settings__container{
+    background-color:var(--primary-background-color);
+    padding:2em 2em;
+    display:flex;
+    flex-direction: column;
+    flex-wrap:nowrap;
+    justify-content: space-evenly;
+    gap:2em
+}
+
+settings{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items:center
+}
+
+.setting__description{
+    text-align:left;
+}
+
+.setting__toggle button{
+    padding:1em 2em;
+    border-radius:10px;
+    background-color: var(--secondary-background-color);
+    color:var(--primary-background-color);
+    border:none;
+}
+
+.setting__toggle button:hover{
+    background-color: var(--accent-color);
+    color:var(--secondary-background-color)
 }
 
 @media (min-width:600px){
