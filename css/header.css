@@ -8,3 +8,9 @@ header{
     text-align:center;
     text-transform: uppercase;
 }
+
+.page__subtitle{
+    color:var(--accent-color);
+    text-align:center;
+    text-transform: uppercase;
+}
