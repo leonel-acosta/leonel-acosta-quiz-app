@@ -3,6 +3,10 @@
     padding:2rem 0;
 }
 
+.bookmark:hover{
+    background-color:var(--accent-color);
+}
+
 .cards__container{
     display:flex;
     flex-direction:column;
@@ -18,11 +22,6 @@
     background-color: var(--primary-background-color);
     border:solid 4px var(--accent-color);
     position:relative;
-}
-
-.bookmark:active{
-    color:var(--accent-color);
-    
 }
 
 .question__text{
@@ -51,11 +50,15 @@
     display:none;
     color:var(--white-color);
     text-align:center;
-    font-weight:400;
+    font-weight:800;
+    font-size: 1.4em;
 }
 
 .show_answer__text:active + .answer__text{
     display:block;
+    margin-top:1em;
+    border:dotted 4px white;
+    padding:1em;
 }
 
 .categories__container{
@@ -78,4 +81,12 @@
 
 .answer__text.active{ 
     display:block;
+}
+
+@media (min-width:600px){
+    .answer__container{
+        width:80%;
+        margin:auto;
+        margin-bottom:1em;
+    }
 }
