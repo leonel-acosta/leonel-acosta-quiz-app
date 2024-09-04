@@ -1,6 +1,9 @@
 header{
     background-color:var(--secondary-background-color);
     padding:2rem;
+    position:sticky;
+    top:0;
+    z-index:1
 }
 
 .page__title{
