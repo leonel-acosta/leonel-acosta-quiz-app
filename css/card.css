@@ -48,9 +48,14 @@
 }
 
 .answer__text{ 
+    display:none;
     color:var(--white-color);
     text-align:center;
     font-weight:400;
+}
+
+.show_answer__text:active + .answer__text{
+    display:block;
 }
 
 .categories__container{
@@ -67,4 +72,10 @@
     padding:6px 16px;
     text-transform:lowercase;
     border-radius: 6px;
+}
+
+/* Bookmarks page */
+
+.answer__text.active{ 
+    display:block;
 }
