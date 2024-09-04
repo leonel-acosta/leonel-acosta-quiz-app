@@ -131,16 +131,20 @@ settings{
 }
 
 @media (min-width:600px){
-
+    .profile__container{
+        flex-direction:column;
+        padding:2em 0;
+        margin-bottom:2em;
+    }
+    
     .counter{
-        font-size:1.6em
+        font-size:1.2em
     }
 
     .questions__icon{
-        width:50px;
+        width:36px;
     }
     .bookmarks__icon{
-        width:50px;
+        width:36px;
     }
-
 }

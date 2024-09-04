@@ -6,6 +6,18 @@
 @import url("bookmarks.css");
 @import url("profile.css");
 
+@media (min-width:600px){
+    main{
+        padding:0 3em 3em
+    }
+
+    .container{
+        max-width:80%;
+        border-radius: 22px;  
+        margin:auto;
+    }
+}
+
 h1, h2 {
 font-family: 'Playfair Display';
 font-style:normal;
